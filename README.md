@@ -1,9 +1,8 @@
 <div align="center">
   <img src="/moveit-next/public/favicon.png" />
+  <h1>Move.it</h1>
 <div>
-# moveit-nlw4
-<p>Projeto desenvolvido durante a NLW#4</p>
-<h1 align="center">
+<h2 align="center">
   Next Level Week #2<br/>
   Node.js | ReactJS | React Native
 </h1>
@@ -23,28 +22,21 @@
   <a href="#Contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-## :bookmark: O que é?
+## 🔎🏃‍ O que é?
 
-O **Proffy** é uma aplicação Web e Mobile desenvolvida durante a Next Level Week, projeto da [Rocketseat](https://rocketseat.com.br/) com o objetivo de auxiliar na conexão entre os alunos e os professores. Logo, esta aplicação oferece aos professores a possibilidade de registrar aulas, podendo adicionar informações como a disciplina, o custo e horário e aos alunos a possibilidade de buscar pelas aulas cadastradas.
-  
-Este projeto foi idealizado pensando no dia **6 de agosto**, onde se comemora o **Dia Nacional dos Profissionais da Educação**
+O **Move.it** é uma aplicação Web desenvolvida durante a **Next Level Week #4**, projeto da [Rocketseat](https://rocketseat.com.br/) com o objetivo de ajudar as pessoas se movimentarem. **Como assim?** vivemos em uma sociedade que passa cada vez mais tempo na frente do computador ou do celular. Isso pode trazer grandes malefícios a saúde e ao próprio trabalho do indivíduo. Assim, esse app junta duas coisas: uma técnica muito conhecida chamada **Pomodoro**, na qual só se deve passar 25 minutos estudando/trabalhando e depois um tempo de intervalo. 25 minutos porque, segundo a técnica, é o tempo máximo que você consegue passar focado em algo, dando tudo de si.
+<br/>
+A segunda coisa adicionada ao projeto é uma gameficação de desafios para se movimentar. Depois de passado 25 minutos, o app lança um desafio para o usuário se movimentar/alongar. Cumprido esse desafio, o usuário ganha XP e pode avançar de nível.
 
-## :bookmark: Exemplos de uso
-![WhatsApp Image 2020-08-25 at 11 02 24 PM (2)](https://user-images.githubusercontent.com/58981172/91677326-bd8b8000-eb18-11ea-9271-b55f58e68c8a.jpeg)
-![WhatsApp Image 2020-08-25 at 11 02 24 PM (1)](https://user-images.githubusercontent.com/58981172/91677329-bf554380-eb18-11ea-8313-b59c87cc585b.jpeg)
-![WhatsApp Image 2020-08-25 at 11 02 24 PM](https://user-images.githubusercontent.com/58981172/91677332-c0867080-eb18-11ea-82ed-7e58a4c6d48f.jpeg)
-![WhatsApp Image 2020-08-12 at 12 22 39 PM (1)](https://user-images.githubusercontent.com/58981172/91677417-ffb4c180-eb18-11ea-9870-3e350940c6e6.jpeg)
-![WhatsApp Image 2020-08-12 at 12 22 39 PM](https://user-images.githubusercontent.com/58981172/91677421-02171b80-eb19-11ea-8f70-41092e206da0.jpeg)
+## 💻Exemplos de uso
+
 
 ## :rocket: Tecnologias
 
 -  [Typescript](https://www.typescriptlang.org/)
 -  [Node.js](https://nodejs.org/en/)
 -  [ReactJS](https://reactjs.org/)
--  [React Native](http://facebook.github.io/react-native/)
--  [Expo](https://expo.io/)
--  [Express](https://expressjs.com/)
--  [axios](https://github.com/axios/axios)
+-  [Next.js](https://nextjs.org/)
 
 ## :boom: Como Executar
 
@@ -58,35 +50,20 @@ Este projeto foi idealizado pensando no dia **6 de agosto**, onde se comemora o 
 1. Faça um clone do repositório:
 
 ```sh
-  $ git clone https://github.com/LucasBarbosaSilva/proffy
+  $ git clone https://github.com/LucasBarbosaSilva/moveit-nlw4
 ```
 
 2. Executando a Aplicação:
 
 ```sh
-  # API
-  $ cd server
-  # Instalando as dependências do projeto.
-  $ yarn # ou npm install
-  # Configurando o banco de dados e criando as tabelas.
-  $ yarn knex:migrate # ou npm run knex:migrate
-
-  # Inicie a API
-  $ yarn start # ou npm start
-
   # Aplicação web
-  $ cd web
+  $ cd moveit-next
   # Instalando as dependências do projeto.
   $ yarn # ou npm install
   # Inicie a aplicação web
-  $ yarn start # ou npm start
-
-  # Aplicação mobile
-  $ cd mob
-  # Instalando as dependências do projeto.
-  $ yarn # ou npm install
-  # Inicie a aplicação mobile
-  $ yarn start # ou npm start
+  $ yarn dev
+  # Abra no navegador o endereço: **http://localhost:3000/
+  
 ```
 
 
@@ -96,9 +73,7 @@ Este projeto foi idealizado pensando no dia **6 de agosto**, onde se comemora o 
 
 Lucas Barbosa Leite Silva – [@Lucas Barbosa](https://www.linkedin.com/in/lucas-barbosa-4076ab1a6/) – blucas.oficial@gmail.com
 
-Distribuído sob a licença MIT. Veja [LICENSE](LICENSE.md) para mais informações.
-
-[https://github.com/LucasBarbosaSilva/proffy](https://github.com/LucasBarbosaSilva/proffy)
+[https://github.com/LucasBarbosaSilva/proffy](https://github.com/LucasBarbosaSilva/)
 
 ## Contributing
 
