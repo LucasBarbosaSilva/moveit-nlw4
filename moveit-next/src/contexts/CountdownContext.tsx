@@ -20,7 +20,7 @@ export const CountdownContext = createContext({} as CountdownContextData);
 
 export function CountdownProvider({children}: CountdownProvidersProps ){
 
-  const timeDefault = 0.1 * 60;
+  const timeDefault = 25 * 60;
 
   let countdownTimeout: NodeJS.Timeout;
   
