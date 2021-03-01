@@ -1,21 +1,21 @@
 <div align="center">
   <img src="/moveit-next/public/favicon.png" />
   <h1>Move.it</h1>
-<div>
+</div>
 <h2 align="center">
-  Next Level Week #2<br/>
-  Node.js | ReactJS | React Native
+  Next Level Week #4<br/>
+  Node.js | ReactJS | Next.js
 </h1>
 <p align="center">
-  <img alt="GitHub issues" src="https://img.shields.io/github/issues/LucasBarbosaSilva/proffy?style=flat-square">
-  <img alt="GitHub forks count" src="https://img.shields.io/github/forks/LucasBarbosaSilva/proffy?style=flat-square">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/LucasBarbosaSilva/proffy?style=flat-square">
-  <img alt="GitHub license" src="https://img.shields.io/github/license/LucasBarbosaSilva/proffy?style=flat-square">
+  <img alt="GitHub issues" src="https://img.shields.io/github/issues/LucasBarbosaSilva/moveit-nlw4?style=flat-square">
+  <img alt="GitHub forks count" src="https://img.shields.io/github/forks/LucasBarbosaSilva/moveit-nlw4?style=flat-square">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/LucasBarbosaSilva/moveit-nlw4?style=flat-square">
+  <img alt="GitHub license" src="https://img.shields.io/github/license/LucasBarbosaSilva/moveit-nlw4?style=flat-square">
   <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1?style=flat-square"><br/>
 </p>
 <p align="center">
   <a href="#bookmark-o-que-%C3%A9">O que é?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#bookmark-exemplos-de-uso">Exemplos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bookmark-exemplos-de-uso">Exemplos de uso</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#boom-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#mais-informações">Mais Informações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -28,7 +28,8 @@ O **Move.it** é uma aplicação Web desenvolvida durante a **Next Level Week #4
 <br/>
 A segunda coisa adicionada ao projeto é uma gameficação de desafios para se movimentar. Depois de passado 25 minutos, o app lança um desafio para o usuário se movimentar/alongar. Cumprido esse desafio, o usuário ganha XP e pode avançar de nível.
 
-## 💻Exemplos de uso
+## 💻🏃‍ Exemplos de uso
+![Design sem nome (1)](https://user-images.githubusercontent.com/58981172/109442065-dddbbf00-7a15-11eb-818a-a0f486613c56.gif)
 
 
 ## :rocket: Tecnologias
@@ -44,8 +45,7 @@ A segunda coisa adicionada ao projeto é uma gameficação de desafios para se m
 
   - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador
   - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador
-  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
-  - Por fim, é **essencial** ter o **[Expo](https://expo.io/)** instalado de forma global na máquina, para rodar a aplicação mobile.
+  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**
 
 1. Faça um clone do repositório:
 
@@ -86,5 +86,3 @@ Lucas Barbosa Leite Silva – [@Lucas Barbosa](https://www.linkedin.com/in/lucas
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/datadog-metrics
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
